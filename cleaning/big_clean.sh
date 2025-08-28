@@ -2,6 +2,7 @@
 
 LITTLE=little_dir.tgz
 BIG=big_dir.tgz
+
 SCRATCH_BIG=$(mktemp --directory SCRATCH_big-XXXXXX)
 SCRATCH_LITTLE=$(mktemp --directory SCRATCH_little-XXXXXX)
 
